@@ -1,0 +1,56 @@
+.todo_box_main{
+ 
+ padding-left: 50px;
+ padding-right: 50px;
+}
+.todo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.todo-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.content input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.content p {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Styles for the todo actions */
+.actions-box span {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.actions-box span:hover {
+  color: #0056b3;
+}
+
+
+.content p.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+

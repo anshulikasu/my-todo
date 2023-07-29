@@ -1,0 +1,52 @@
+
+.form_main,
+.form_input {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  margin-left: 30px;
+  
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  /* max-width: 400px; */
+  background-color: #f9f9f9;
+}
+
+.form_main label,
+.form_input label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-and-btn,
+.input_button {
+  display: flex;
+  align-items: center;
+}
+
+.form-control {
+  flex: 1;
+  height: 38px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form_add_button,
+.form_update_button,
+.form_update_back {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.form_input .input_button {
+  justify-content: space-between;
+}
+
