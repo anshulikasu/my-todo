@@ -77,13 +77,6 @@ function TodoForm({ editFormVisibility, editTodo, cancelUpdate }) {
               BACK
             </button>
           </div>
-          {/* <button
-            type="button"
-            className="form_update_back"
-            onClick={cancelUpdate}
-          >
-            BACK
-          </button> */}
         </form>
       )}
     </>

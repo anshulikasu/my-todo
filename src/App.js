@@ -35,7 +35,7 @@ function App() {
         handleEditClick={handleEditClick}
         editFormVisibility={editFormVisibility}
       />
-      {/* Use 'todos.length > 1' instead of 'Todoss.length > 1' */}
+
       {Todoss.length > 1 && (
         <button
           className="btn btn-danger btn-md delete-all"

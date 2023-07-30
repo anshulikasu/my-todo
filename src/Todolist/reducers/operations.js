@@ -8,8 +8,6 @@ import {
 } from "../actions";
 const initialState = [
   { id: 1, todo: "example, add some water to palent", completed: false },
-  // { id: 2, todo: "mk njhbhb", completed: true },
-  // { id: 3, todo: "mknjh bhb", completed: false },
 ];
 
 export const operationsReducer = (state = initialState, action) => {

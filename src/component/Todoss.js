@@ -15,14 +15,6 @@ const Todoss = ({ handleEditClick, editFormVisibility }) => {
     <div className="todo_box_main">
       <div key={todo.id} className="todo-box">
         <div className="content">
-          {/* {editFormVisibility === false && (
-            <input
-              type="checkbox"
-              checked={todo.completed}
-              onChange={() => handleCheckbox(todo.id, todo.completed)}
-            />
-          )} */}
-
           <p
             style={
               todo.completed === true
