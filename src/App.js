@@ -24,14 +24,14 @@ function App() {
 
   return (
     <div className="App">
-      <br></br>
-      <h1>TODO-APP USING REACT REDUX</h1>
       <Form
+        className="app_form"
         editFormVisibility={editFormVisibility}
         editTodo={editTodo}
         cancelUpdate={cancelUpdate}
       />
       <Todoss
+        className="app_todo"
         handleEditClick={handleEditClick}
         editFormVisibility={editFormVisibility}
       />

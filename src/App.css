@@ -1,8 +1,9 @@
-
+/* 
 
 
 .App {
   text-align: center;
+ 
  
 }
 
@@ -17,16 +18,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -39,4 +31,99 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* App.css */
+
+/* Styles for the main container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
 }
+
+/* Styles for the form */
+.app_form {
+  display: flex;
+  
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Styles for the todos container */
+.app_todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styles for each individual todo box */
+.todo-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Adjust the width as per your preference */
+  margin-bottom: 10px;
+}
+
+/* Styles for the todo content */
+.content {
+  flex-grow: 1;
+}
+
+/* Styles for completed todos with a line-through */
+.content p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+
+.content p.completed {
+  text-decoration: line-through;
+}
+
+/* Styles for the actions icons */
+.actions-box {
+  display: flex;
+}
+
+.actions-box span {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Styling the trash and edit icons */
+.actions-box span svg {
+  width: 20px;
+  height: 20px;
+  color: #333;
+}
+
+/* Hover effect on the icons */
+.actions-box span:hover svg {
+  color: #f44336; /* Change to the color of your choice */
+}
+
+/* Styles for the "DELETE ALL" button */
+.delete-all {
+  background-color: #f44336; /* Change to the color of your choice */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.delete-all:hover {
+  background-color: #d32f2f; /* Change to the color of your choice */
+}
+

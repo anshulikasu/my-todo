@@ -7,7 +7,7 @@ import {
   UPDATE_CHECKBOX,
 } from "../actions";
 const initialState = [
-  { id: 1, todo: "example, add some water to palent", completed: false },
+  { id: 1, todo: "example, Your task will look like this", completed: false },
 ];
 
 export const operationsReducer = (state = initialState, action) => {
