@@ -36,11 +36,16 @@
 /* App.css */
 
 /* Styles for the main container */
+
+
+
 .App {
   display: flex;
+  background-color: #e7dfdf;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
+  height: 1000px;
+  /* margin: 20px; */
 }
 
 /* Styles for the form */
@@ -127,3 +132,4 @@
   background-color: #d32f2f; /* Change to the color of your choice */
 }
 
+/* background-color: #f0e7e7; */

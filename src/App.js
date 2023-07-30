@@ -4,6 +4,7 @@ import { useState } from "react";
 import Todoss from "./component/Todoss";
 import { useDispatch, useSelector } from "react-redux";
 import { deleteAll } from "./Todolist/actions";
+import Header from "./component/Header";
 
 function App() {
   const dispatch = useDispatch();
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <Form
         className="app_form"
         editFormVisibility={editFormVisibility}
